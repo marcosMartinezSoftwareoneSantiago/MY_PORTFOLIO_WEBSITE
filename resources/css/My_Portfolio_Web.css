@@ -30,6 +30,7 @@
 .enlaces{
   align-items: left;
   justify-content: center;
+  
 }
 
 .rightAreaHome {
@@ -39,6 +40,12 @@
   min-height: 0%;
 }
 
+#footer {
+  display: flex;
+  width: 100%;
+  background-color: goldenrod;
+  justify-content: left;
+}
 .headerAreaPages {
   
 }
@@ -54,4 +61,3 @@
 .rightAreaPages {
 
 }
-
