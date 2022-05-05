@@ -1,0 +1,57 @@
+.headerHome {
+  display: flex;
+  width: 100%;
+  max-height: 20%;
+  min-height: 5%;
+  background-color:blueviolet;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 80%;
+  max-width: 100%;
+  min-height: 8%;
+  min-width: 10;
+}
+.leftAreaHome{
+  display:flex;
+  flex-direction: column;
+  height:20%;
+}
+.sobreMi{
+  align-items: center;
+  justify-content: center;
+}
+
+.enlaces{
+  align-items: left;
+  justify-content: center;
+}
+
+.rightAreaHome {
+  display: flex;
+  align-items: right;
+  max-height: 80%;
+  min-height: 0%;
+}
+
+.headerAreaPages {
+  
+}
+
+.centerAreaPages {
+
+}
+
+.leftAreaPages {
+
+}
+
+.rightAreaPages {
+
+}
+
