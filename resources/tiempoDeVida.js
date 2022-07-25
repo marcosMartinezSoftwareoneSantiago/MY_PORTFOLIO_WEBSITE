@@ -41,4 +41,4 @@ if(dias <0){
       dias=28+ dias; //dias will be a negative number
   }
 }
-footer.innerHTML=`<p>Hace ${horas} horas, ${dias} dias,${meses} y ${anos} años que nací.</p>`;
+footer.innerHTML=`<p>Hace ${horas} horas, ${dias} dias,${meses} meses y ${anos} años que nací.</p>`;

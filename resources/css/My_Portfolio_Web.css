@@ -11,17 +11,21 @@
 .centerHome {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
   justify-content: space-between;
   max-height: 80%;
   max-width: 100%;
   min-height: 8%;
   min-width: 10;
 }
+
 .leftAreaHome{
-  display:flex;
+  display: flex;
   flex-direction: column;
   height:20%;
 }
+
 .sobreMi{
   align-items: center;
   justify-content: center;
