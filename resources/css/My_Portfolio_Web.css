@@ -1,9 +1,15 @@
+.default {
+  background-color:#82C7FF;
+  color: #C70039;
+}
+
 .headerHome {
   display: flex;
   width: 100%;
   max-height: 20%;
   min-height: 5%;
-  background-color:blueviolet;
+  background-color:#54FDE3;
+  color: #9D6CFF;
   align-items: center;
   justify-content: center;
 }
@@ -12,7 +18,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   max-height: 80%;
   max-width: 100%;
@@ -23,33 +29,40 @@
 .leftAreaHome{
   display: flex;
   flex-direction: column;
-  height:20%;
+  justify-content: start;
+  height: 20%;
 }
 
 .sobreMi{
-  align-items: center;
-  justify-content: center;
+  justify-content: middle;
 }
 
 .enlaces{
-  align-items: left;
-  justify-content: center;
+  justify-content: flex-start;
   
 }
 
 .rightAreaHome {
   display: flex;
-  align-items: right;
-  max-height: 80%;
-  min-height: 0%;
+  justify-content: center;
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.imageAdaptable {
+  width: 100%;
+  height:auto;
+  margin: auto;
 }
 
 #footer {
   display: flex;
   width: 100%;
-  background-color: goldenrod;
+  background-color: #9D6CFF;
+  color: #54FDE3;
   justify-content: left;
 }
+/*
 .headerAreaPages {
   
 }
@@ -65,3 +78,4 @@
 .rightAreaPages {
 
 }
+*/
