@@ -1,5 +1,8 @@
 .default {
+  display: block;
   background-color:#82C7FF;
+  width: 100%;
+  height: 100%;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
@@ -33,7 +36,25 @@
   min-height: 10px;
 }
 
+.centerHome {
+  background-image: url("../images/Home.jpg");
+  background-color: transparent;
+  text-align: justify;
+  color:saddlebrown;
+  flex-direction: column;
+  position:fixed;
+  left: 0;
+  top: 30pt;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  min-height: 10px;
+}
+
 .leftAreaHome{
+   background-color: transparent;
   flex-direction: column;
   justify-content: start;
   min-height: 8%;
@@ -42,9 +63,7 @@
 .titulo{
   color: #C70039;
 }
-.sobreMi{
-  justify-content: middle;
-}
+
 
 .enlaces{
   justify-content: flex-start;
@@ -52,7 +71,6 @@
 }
 
 .rightAreaHome {
-  display: flex;
   justify-content: start;
   flex-grow: 2;
   flex-shrink: 2;
