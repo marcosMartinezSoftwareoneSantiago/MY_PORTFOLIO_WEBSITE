@@ -39,42 +39,24 @@
 .centerHome {
   background-image: url("../images/Home.jpg");
   background-color: transparent;
-  text-align: justify;
-  color:saddlebrown;
-  flex-direction: column;
+  background-size: cover;
   position:fixed;
   left: 0;
   top: 30pt;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  text-align: center;
   height: 100%;
   width: 100%;
-  min-height: 10px;
 }
 
-.leftAreaHome{
-   background-color: transparent;
-  flex-direction: column;
-  justify-content: start;
-  min-height: 8%;
-  max-height: 50%;
-}
 .titulo{
   color: #C70039;
 }
-
 
 .enlaces{
   justify-content: flex-start;
   font-size: 20px;
 }
 
-.rightAreaHome {
-  justify-content: start;
-  flex-grow: 2;
-  flex-shrink: 2;
-}
 
 .imageAdaptable {
   width: 100%;
@@ -128,4 +110,8 @@
   justify-content: center;
   flex-grow: 2;
   flex-shrink: 2;
+}
+
+.poemas {
+  text-align: center;
 }
