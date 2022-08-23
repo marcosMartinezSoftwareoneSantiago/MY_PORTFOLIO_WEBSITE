@@ -57,11 +57,17 @@
   font-size: 20px;
 }
 
-.imageAdaptable {
+.videoAdaptable {
   position: fixed;
   top: 70pt;
   width: 100%;
   height:83%;
+  margin: auto;
+}
+
+.imageAdaptable {
+  width: 100%;
+  height:auto;
   margin: auto;
 }
 
@@ -96,7 +102,12 @@
 
 .rightAreaPages {
   display: flex;
-  justify-content: center;
+  align-items: top;
+  position: fixed;
+  right: 0;
+  top: 50pt;
+  max-width: 60%;
+  max-height: 97%;
   flex-grow: 2;
   flex-shrink: 2;
 }
